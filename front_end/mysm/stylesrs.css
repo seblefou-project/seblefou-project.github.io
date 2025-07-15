@@ -1,0 +1,53 @@
+.imagelogo {
+	width: 30px;
+	height: 30px;
+	margin-left: 7px;
+}
+.bande {
+    background-color: #16171d;
+    width: 100%;
+    height: 47px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.textetoinline {
+	display: flex;
+	gap: 30px;
+	margin-right: 8px;
+	text-decoration: none;
+	color: #fcfaed;
+	background-color: #16171D;
+}
+.listsm {
+	color: #fcfaed;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 5%;
+}
+.rs {
+	margin: 50px;
+}
+.rs:hover{
+	color: #234d7a;
+}
+#title {
+	text-align: center;
+	color: #fcfaed;
+	margin-top: 10%;
+
+}
+body {
+	margin: 0;
+}
+html {
+	background-color: #282a35;
+}
+:root {
+  font-family: 'Inter', sans-serif;
+  font-feature-settings: 'liga' 1, 'calt' 1;
+}
+@supports (font-variation-settings: normal) {
+  :root { font-family: 'Inter var', sans-serif; }
+}
+
