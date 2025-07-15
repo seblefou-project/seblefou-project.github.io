@@ -1,5 +1,5 @@
 html{
-	background-color: #16171d;
+	background-color: #282a35;
 }
 body {
 	margin: 0;
@@ -48,7 +48,7 @@ body {
 	align-items: center;
 }
 .colonne {
-	height: 92vh;
+	height: 100vh;
 	background-color: #282a35;
 	margin-top: 1px;
 	margin-bottom: 0;
