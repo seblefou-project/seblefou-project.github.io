@@ -54,6 +54,30 @@ body {
 html {
 	background-color: #282a35;
 }
+@media only screen and (max-width: 600px) {
+	.textetoinline {
+		display: flex;
+		gap: 10px;
+		font-size: 12px;
+		margin-right: 1px;
+		text-decoration: none;
+		color: #fcfaed;
+		background-color: #16171d;
+	}
+	#myinput {
+		display: block;
+		margin: 20px auto; 
+		padding: 8px;
+		width: 90%;
+		height: 20px;
+		text-align: center; 
+		border-radius: 3px;
+		border: 2px solid #282a35;
+		background-color: #fcfaed;
+		color: #234d7a;
+	}
+}
+
 :root {
   font-family: 'Inter', sans-serif;
   font-feature-settings: 'liga' 1, 'calt' 1;

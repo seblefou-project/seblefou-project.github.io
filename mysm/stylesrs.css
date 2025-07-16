@@ -43,6 +43,26 @@ body {
 html {
 	background-color: #282a35;
 }
+@media only screen and (max-width: 600px) {
+	.textetoinline {
+		display: flex;
+		gap: 10px;
+		font-size: 12px;
+		margin-right: 1px;
+		text-decoration: none;
+		color: #fcfaed;
+		background-color: #16171d;
+	}
+	.listsm {
+		color: #fcfaed;
+		text-decoration: none;
+		text-align: center;
+	}
+	.rs {
+		margin-top: 13%;
+		display: block;
+	}
+}
 :root {
   font-family: 'Inter', sans-serif;
   font-feature-settings: 'liga' 1, 'calt' 1;

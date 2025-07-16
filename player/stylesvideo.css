@@ -41,6 +41,34 @@ html {
 body {
 	margin: 0;
 }
+
+@media only screen and (max-width: 600px) {
+	html {
+		background-color: #282a35;
+	}
+	.textetoinline {
+		display: flex;
+		gap: 10px;
+		font-size: 12px;
+		margin-right: 1px;
+		text-decoration: none;
+		color: #fcfaed;
+		background-color: #16171d;
+	}
+	#videocontainer iframe {
+		max-width: 90%; 
+	}
+#videocontainer {
+	display: flex;
+	justify-content: center;
+	margin-top: 10%;
+	margin-left: 0;
+	margin-right: 0;
+
+}
+
+
+}
 :root {
   font-family: 'Inter', sans-serif;
   font-feature-settings: 'liga' 1, 'calt' 1;
